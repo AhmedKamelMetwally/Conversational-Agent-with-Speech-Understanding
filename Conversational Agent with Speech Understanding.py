@@ -30,13 +30,6 @@ from langflow.io import DataInput, FloatInput, Output, SecretStrInput
 from langflow.schema.data import Data
 from pathlib import Path
 
-import assemblyai as aai
-from loguru import logger
-
-from langflow.custom.custom_component.component import Component
-from langflow.io import BoolInput, DropdownInput, FileInput, MessageTextInput, Output, SecretStrInput
-from langflow.schema.data import Data
-
 
 
 def set_advanced_true(component_input):
